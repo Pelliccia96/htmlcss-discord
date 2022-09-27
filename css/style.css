@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #23272A;
+ /*    color: #23272A; */
 }
 
 nav {
@@ -62,6 +62,7 @@ header section {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
+    margin-bottom: 5rem;
 }
 
 .container.container-s {
@@ -85,18 +86,16 @@ header section {
     background-color: #FFFFFF;
     padding: 2rem;
     width: 100%;
+    padding-bottom: 6rem;
 }
 
 .background-grey {
     background-color: #f7f7f7;
+    padding-bottom: 6rem;
 }
 
 .background-grey .container .row {
     flex-direction: row-reverse;
-}
-
-.box {
-    padding-bottom: 6rem;
 }
 
 .box h2 {
@@ -128,27 +127,55 @@ footer {
     display: flex;
 }
 
-footer .container .row-footer .col {
-    background-color: #F08080;
-    padding-bottom: 30rem;
-    width: 40%;
+footer .container .row-footer .col-2 {
+    color: white;
 }
 
-footer .container .row-footer .col-2 {
-    background-color: #20B2AA;
-    width: 15%;
-    border: 1px dashed black;
+.footer-color {
+    color: #7289DA;
+}
+
+.flag {
+    width: 6%;
+}
+
+.social {
+    padding-top: 1rem;
+    color: white;
+}
+
+.social i {
+    padding-right: 1rem;
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+.col.col-2 ul {
+    list-style: none;
+}
+
+.col.col-2 ul li {
+    padding: 0.5rem;
+}
+
+footer .col {
+    padding-right: 2rem;
+}
+
+footer .col.col-2 {
+    padding-right: 3rem;
 }
 
 .row-footer2 {
     display: flex;
-    background-color: #76EAC3;
     padding-bottom: 3rem;
     justify-content: space-between;
 }
 
 .row-footer2 .col-footer {
-    background-color: #CB939B;
     padding: 0.5rem;
 }
 
@@ -168,5 +195,10 @@ footer .container .row-footer .col-2 {
 
 .btn.large.black {
     background-color: #23272A;
+    color: white;
+}
+
+.btn.blue {
+    background-color: #8EA1E1;
     color: white;
 }
