@@ -60,7 +60,7 @@ nav .row {
 header section {
     background-image: url('../img/jumbo.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
     padding: 2rem;
     margin-bottom: 5rem;
 }
@@ -116,6 +116,12 @@ header section {
 .btn.large.blue {
     background-color: #8EA1E1;
     color: white;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
